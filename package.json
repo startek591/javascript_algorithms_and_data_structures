@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/startek591/javascript_algorithms_and_data_structures/issues"
   },
-  "homepage": "https://github.com/startek591/javascript_algorithms_and_data_structures#readme"
+  "homepage": "https://github.com/startek591/javascript_algorithms_and_data_structures#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
