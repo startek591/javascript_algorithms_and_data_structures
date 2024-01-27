@@ -11,4 +11,8 @@ test("Performing arithmetic operations using the calculator function", () => {
   expect(calculator(num1, num2, "*")).toBe(35);
 
   expect(calculator(num1, num2, "/")).toBeCloseTo(0.7143, 4);
+
+  expect(() => calculator(7, 0, "/")).toThrow(Error, "Division by zero");
+
+  expect(() => calculator("unexpected")).toThrow(Error, "Invalid operator");
 });
